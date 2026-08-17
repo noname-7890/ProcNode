@@ -20,7 +20,7 @@ A high-performance proxy client &amp; process-level traffic dispatcher supportin
   * 每个标签页独立分配一个本地监听端口（如 7890、7891、7892...）。
 * **进程级独立分流（完全替代 Proxifier）**
   * 点击「规则」一键绑定目标进程，各应用流量完全物理隔离。
-  * 支持不同软件走不同节点，如：Chrome 走节点 A，Telegram 走节点 B。
+  * 支持不同软件走不同节点，如：Chrome 走节点 A，Telegram 走节点 B，Antigravity 走节点 C。
 * **智能调度与加速引擎**
   * **[ A ] 自动选优**：实时监控延迟与连通性，自动切换最佳节点。
   * **[⚡] 多路加速**：并发调度 2~3 个节点进行负载均衡，提升多连接吞吐。
